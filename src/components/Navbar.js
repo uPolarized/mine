@@ -1,7 +1,7 @@
-// src/components/Navbar.js
+
 import React from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom'; // Para links de navegação
+import { Link } from 'react-router-dom'; 
 
 const NavbarContainer = styled.nav`
   display: flex;
@@ -33,7 +33,7 @@ const NavLink = styled(Link)`
 const Navbar = () => {
   return (
     <NavbarContainer>
-      <Logo>Meu Logo</Logo>
+      <Logo>Nao sei</Logo>
       <NavLinks>
         <NavLink to="/">Home</NavLink>
         <NavLink to="/sobre">Sobre</NavLink>
